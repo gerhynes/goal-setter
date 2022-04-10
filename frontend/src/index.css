@@ -110,7 +110,7 @@ h3 {
 
 .form,
 .content {
-  width: 70%;
+  /* width: 70%; */
   margin: 0 auto;
 }
 
@@ -201,7 +201,8 @@ h3 {
 }
 
 @media (max-width: 600px) {
-  .form {
+  .form,
+  .content {
     width: 90%;
   }
 
